@@ -2,7 +2,7 @@ spring:
   application:
     name: order-service
   datasource:
-    url: jdbc:mysql:/host.minikube.internal:3306/orderdb?createDatabaseIfNotExist=true
+    url: jdbc:mysql:/mysql:3306/orderdb?createDatabaseIfNotExist=true
 server:
   port: 8082
   servlet:
